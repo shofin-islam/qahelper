@@ -1,0 +1,91 @@
+{
+  "Config": {
+    "web": {
+      "browsers": [
+        "chrome",
+        "firefox",
+        "edge"
+      ],
+      "baseurl": "http://google.com",
+      "help": "some others if needed"
+    },
+    "mobile": {
+      "package": "sdc",
+      "mainactivity": "dcsd",
+      "serverurl": "sdcdsc",
+      "help": "some others if needed"
+    },
+    "api": {
+      "baseurl": "dsddc"
+    }
+  },
+  "accounts": [
+    {
+      "accountnumber": "as",
+      "phonenumber": "as",
+      "email": "as"
+    },
+    {
+      "accountnumber": "as",
+      "phonenumber": "as",
+      "email": "sa"
+    }
+  ],
+  "creditcards": [
+    {
+      "accountnumber": "as",
+      "cardnumber": "",
+      "phonenumber": "as",
+      "email": "as",
+      "expire": "",
+      "cvv": ""
+    },
+    {
+      "accountnumber": "as",
+      "cardnumber": "",
+      "phonenumber": "as",
+      "email": "as",
+      "expire": "",
+      "cvv": ""
+    }
+  ],
+  "adminuser": [
+    {
+      "userid": "d",
+      "pass": "asdas",
+      "email": "as@d.as",
+      "role": "ddsd",
+      "phone": "123123"
+    },
+    {
+      "userid": "d",
+      "pass": "asdas",
+      "email": "as@d.as",
+      "role": "ddsd",
+      "phone": "123123"
+    }
+  ],
+  "apis":{
+    "auth": {
+      "token_url": "https://example.com/api/token",
+      "client_id": "your_client_id",
+      "client_secret": "your_client_secret"
+    },
+    "api": {
+      "feature1": {
+        "base_url": "https://example.com/api/feature1",
+        "endpoints": {
+          "getDetails": { "method": "GET", "path": "/details" },
+          "createEntry": { "method": "POST", "path": "/create" }
+        }
+      },
+      "feature2": {
+        "base_url": "https://example.com/api/feature2",
+        "endpoints": {
+          "updateData": { "method": "POST", "path": "/update" }
+        }
+      }
+    }
+  }
+
+}
